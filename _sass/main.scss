@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+
+// Vendors
+@import
+  'vendor/normalize';
+
+// Configuration and helpers
+@import
+  'utils/variables',
+  'utils/functions',
+  'utils/mixins';
+
+// Base stuff
+@import
+  'base/base';
+
+// Layout-related sections
+@import
+  'layout/header',
+  'layout/footer';
+
+// Components
+@import
+  'components/syntax-highlighting';
