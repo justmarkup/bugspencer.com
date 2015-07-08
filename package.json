@@ -1,0 +1,16 @@
+{
+  "name": "bugspencer",
+  "description": "A collection for resources for reporting browser bugs",
+  "author": "Michael Scharnagl @justmarkup",
+  "private": true,
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-concurrent": "^2.0.0",
+    "grunt-contrib-watch": "*",
+    "grunt-sass": "^1.0.0",
+    "grunt-shell": "*",
+    "load-grunt-tasks": "*",
+    "time-grunt": "*"
+  }
+}
