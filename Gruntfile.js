@@ -31,9 +31,9 @@ module.exports = function (grunt) {
         // sass (libsass) config
         sass: {
             options: {
-                sourceMap: true,
+                sourceMap: false,
                 relativeAssets: false,
-                outputStyle: 'expanded',
+                outputStyle: 'compressed',
                 sassDir: '_sass',
                 cssDir: '_site/css'
             },

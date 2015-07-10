@@ -8,3 +8,5 @@ github_username:  justmarkup
 
 # Build settings
 markdown: kramdown
+exclude: [‘css’, ‘_scss’, 'node_modules', 'Gruntfile.js', 'package.json']
+keep_files: ['_site/css']
