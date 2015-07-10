@@ -8,7 +8,7 @@
 
 /// Regular font family
 /// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$text-font-stack: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
 /// Code (monospace) font family
 /// @type List
@@ -37,16 +37,6 @@ $mid-grey: #999 !default;
 /// Dark grey
 /// @type Color
 $dark-grey: #444 !default;
-
-
-
-
-
-/// Container's maximum width
-/// Below that is 100%
-/// @type Length
-$max-width: 1200px !default;
-
 
 
 
