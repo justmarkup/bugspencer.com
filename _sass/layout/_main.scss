@@ -15,4 +15,10 @@
 		flex-basis: 210px;
 		text-align: center;
 	}
+	img {
+		transition: all 300ms;
+		&:hover {
+			transform: rotate(360deg);
+		}
+	}
 }

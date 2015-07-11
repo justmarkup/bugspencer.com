@@ -22,9 +22,13 @@ module.exports = function (grunt) {
 
         // watch for files to change and run tasks when they do
         watch: {
+            html: {
+                files: ['index.html', '*.html', '_includes/*.html'],
+                tasks: ['staticinline']
+            },
             sass: {
                 files: ['_sass/**/*.{scss,sass}'],
-                tasks: ['sass']
+                tasks: ['sass', 'staticinline']
             }
         },
 
@@ -55,11 +59,28 @@ module.exports = function (grunt) {
             }
         },
 
+        // inline css
+        staticinline: {
+            main: {
+                options: {
+                    prefix: '@{',
+                    suffix: '}@',
+                    vars: {
+                        'css_include': '<%= grunt.file.read("_site/css/main.css") %>'
+                    }
+                },
+                files: {
+                    '_includes/head-min.html': '_includes/head.html'
+                }
+            }
+        },
+
         // run tasks in parallel
         concurrent: {
             serve: [
                 'sass',
                 'autoprefixer',
+                'staticinline',
                 'watch',
                 'shell:jekyllServe'
             ],

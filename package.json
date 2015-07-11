@@ -8,6 +8,7 @@
     "grunt": "*",
     "grunt-autoprefixer": "^2.0.0",
     "grunt-concurrent": "^2.0.0",
+    "grunt-static-inline": "^0.1.4",
     "grunt-contrib-watch": "*",
     "grunt-sass": "^1.0.0",
     "grunt-shell": "*",
