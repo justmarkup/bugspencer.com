@@ -6,3 +6,13 @@
 	max-width: 90%;
 	margin: 0 auto;
 }
+
+.flex-list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	div {
+		flex-basis: 210px;
+		text-align: center;
+	}
+}
