@@ -48,10 +48,18 @@ module.exports = function (grunt) {
             }
         },
 
+        // autoprefixr
+        autoprefixer: {
+            no_dest: {
+                src: '_site/css/main.css'
+            }
+        },
+
         // run tasks in parallel
         concurrent: {
             serve: [
                 'sass',
+                'autoprefixer',
                 'watch',
                 'shell:jekyllServe'
             ],
