@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Opera
+slug: opera
 permalink: /opera/
 ---
 
-Opera
+[Bugtracker](https://bugs.opera.com/wizard/)

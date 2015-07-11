@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Firefox
+slug: firefox
 permalink: /firefox/
 ---
 
-Firefox
+[Bugtracker](https://bugzilla.mozilla.org/)

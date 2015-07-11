@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Safari
+slug: safari
 permalink: /safari/
 ---
 
-Safari
+[Bugtracker](https://bugs.webkit.org/query.cgi?format=specific&product=WebKit)
