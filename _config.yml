@@ -1,7 +1,7 @@
 # Site settings
 title: Bugspencer
 email: hallo@justmarkup.com
-description: A collection for resources for reporting browser bugs.
+description: A collection of resources for reporting browser bugs.
 baseurl: ""
 twitter_username: justmarkup
 github_username:  justmarkup
