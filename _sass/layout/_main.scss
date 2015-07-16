@@ -24,6 +24,10 @@
 	}
 }
 
+[href*="internet-explorer"] img {
+  transform-origin: 55% 51%;
+}
+
 .flex-list-wide {
 	a {
 		display: block;
