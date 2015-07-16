@@ -10,3 +10,7 @@ github_username:  justmarkup
 markdown: kramdown
 exclude: [‘css’, ‘_scss’, 'node_modules', 'Gruntfile.js', 'package.json']
 keep_files: ['_site/css']
+
+collections:
+    resourcearticle:
+        output: true

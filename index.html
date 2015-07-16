@@ -5,9 +5,9 @@ nav: true
 
 <div class="home">
 
-  <h2>Bugtrackers</h2>
-
   <p>Browser bugs are annoying, reporting them can be even more frustrating. Bugspencer gives you tips and resources for reporting browser bugs.</p>
+
+  <h2>Bugtrackers & Status pages</h2>
 
   <div class="flex-list">
   {% for page in site.pages %}
@@ -22,5 +22,24 @@ nav: true
   </div>
 
   <h2>Articles</h2>
+
+  {% assign article = site.resourcearticle | sort: 'title'  %}
+
+  <div class="flex-list flex-list-wide">
+
+    {% for article in article %}
+
+    <div>
+      <a href="{{ article.link }}">
+          <h3>{{ article.title }}</h3>
+          {{ article.content }}
+          {% if article.author %}<p>By <strong>{{ article.author }}</strong></p>{% endif %}
+          {% if article.site %}<p>Published on <strong>{{ article.site }}</strong></p>{% endif %}
+      </a>
+    </div>
+
+    {% endfor %}
+
+  </div>
 
 </div>

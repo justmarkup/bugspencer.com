@@ -22,3 +22,30 @@
 		}
 	}
 }
+
+.flex-list-wide {
+	a {
+		display: block;
+		&:hover {
+			text-decoration: none;
+			transform: rotate(3deg);
+		}
+	}
+	h3 {
+		margin: 0 0 10px 0;
+		background: $brand-color;
+		color: #fff;
+		padding: 10px;
+	}
+	div {
+		text-align: left;
+		border: 1px solid $brand-color;
+		border-width: 1px 1px 0 1px;
+		flex-basis: 260px;
+		margin: 0 20px 40px 20px;
+	}
+	p {
+		font-size: 0.9em;
+		margin: 5px 5px 5px 10px;
+	}
+}
