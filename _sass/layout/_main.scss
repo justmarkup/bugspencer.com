@@ -5,6 +5,7 @@
 	width: 1200px;
 	max-width: 90%;
 	margin: 0 auto;
+  min-height: calc(100vh - 180px);
 }
 
 .flex-list {
@@ -26,7 +27,8 @@
 .flex-list-wide {
 	a {
 		display: block;
-		&:hover {
+		&:hover,
+		&:focus {
 			text-decoration: none;
 			transform: rotate(3deg);
 		}
@@ -48,4 +50,13 @@
 		font-size: 0.9em;
 		margin: 5px 5px 5px 10px;
 	}
+}
+
+.post-content {
+	h2 {
+		font-size: 1em;
+		font-weight: bold;
+		margin: 20px 0 10px 0;
+	}
+	p {margin: 0 0 10px 0;}
 }

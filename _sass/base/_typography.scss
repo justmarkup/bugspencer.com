@@ -8,6 +8,11 @@ body {
 
 p {
 	font-size: 1em;
+	a {text-decoration: underline;}
+	a:hover {
+		text-decoration: none;
+		color: $brand-color;
+	}
 }
 
 h1 {
