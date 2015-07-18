@@ -7,11 +7,6 @@ self.addEventListener('install', function(event) {
     caches.open('simple-sw-v3').then(function(cache) {
       return cache.addAll([
         './',
-        '/chrome/',
-        '/firefox/',
-        '/internet-explorer/',
-        '/safari/',
-        '/opera/',
         '/assets/images/chrome/chrome_128x128.png',
         '/assets/images/firefox/firefox_128x128.png',
         '/assets/images/internet-explorer/internet-explorer_128x128.png',
