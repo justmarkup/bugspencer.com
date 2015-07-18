@@ -4,15 +4,20 @@ importScripts('serviceworker-cache-polyfill.js');
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('simple-sw-v1').then(function(cache) {
-      // And add resources to it
+    caches.open('simple-sw-v3').then(function(cache) {
       return cache.addAll([
         './',
+        '/chrome/',
+        '/firefox/',
+        '/internet-explorer/',
+        '/safari/',
+        '/opera/',
         '/assets/images/chrome/chrome_128x128.png',
         '/assets/images/firefox/firefox_128x128.png',
         '/assets/images/internet-explorer/internet-explorer_128x128.png',
         '/assets/images/opera/opera_128x128.png',
-        '/assets/images/safari/safari_128x128.png'
+        '/assets/images/safari/safari_128x128.png',
+        new Request('https://justmarkup.com/piwik/piwik.js', {mode: 'no-cors'})
       ]);
     })
   );
