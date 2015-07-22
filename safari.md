@@ -12,8 +12,12 @@ There is a [Bugtracker](https://bugs.webkit.org/query.cgi?format=specific&produc
 
 To open a [new bug](https://bugs.webkit.org/enter_bug.cgi) you need to create an [account](https://bugs.webkit.org/createaccount.cgi).
 
-In addition you should also open a new [bug report](http://bugreporter.apple.com/) on Apples Radar page. For doing so you need an Apple ID. 
+In addition you should also open a new [bug report](http://bugreport.apple.com/) on Apples Radar page. For doing so you need an Apple ID. 
 
 ## Status page
 
 The [status page](http://www.webkit.org/status.html) gives an overview of the implementation status of web platform features in Safari (WebKit).
+
+## Guidelines
+
+Before submitting your first bugs please read the [Bug Writing Guidelines](https://www.webkit.org/quality/bugwriting.html) for WebKit.
