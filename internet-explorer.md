@@ -7,7 +7,7 @@ permalink: /internet-explorer/
 
 <img src="{{ site.url }}/assets/images/internet-explorer/internet-explorer_128x128.png" alt="Logo {{ page.title }}">
 
-## Bugtracker
+## Bugtracker for webplatform bugs
 
 There is a [Bugtracker](http://connect.microsoft.com/) to report bugs for Internet Explorer and Edge.
 

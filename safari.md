@@ -6,13 +6,13 @@ permalink: /safari/
 ---
 <img src="{{ site.url }}/assets/images/safari/safari_128x128.png" alt="Logo {{ page.title }}">
 
-## Bugtracker
+## Bugtracker for webplatform bugs
 
 There is a [Bugtracker](https://bugs.webkit.org/query.cgi?format=specific&product=WebKit) to report bugs for Safari.
 
 To open a [new bug](https://bugs.webkit.org/enter_bug.cgi) you need to create an [account](https://bugs.webkit.org/createaccount.cgi).
 
-In addition you should also open a new [bug report](http://bugreport.apple.com/) on Apples Radar page. For doing so you need an Apple ID. 
+You can also CC "radar" to get the bug imported on [Apples Radar page](http://bugreport.apple.com/).
 
 ## Status page
 

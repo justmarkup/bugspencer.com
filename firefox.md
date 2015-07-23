@@ -7,7 +7,7 @@ permalink: /firefox/
 
 <img src="{{ site.url }}/assets/images/firefox/firefox_128x128.png" alt="Logo {{ page.title }}">
 
-## Bugtracker
+## Bugtracker for webplatform bugs
 
 There is a [Bugtracker](https://bugzilla.mozilla.org/) to report bugs for Firefox.
 

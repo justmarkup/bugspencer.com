@@ -7,7 +7,7 @@ permalink: /chrome/
 
 <img src="{{ site.url }}/assets/images/chrome/chrome_128x128.png" alt="Logo {{ page.title }}">
 
-## Bugtracker
+## Bugtracker for webplatform bugs
 
 There is a [Bugtracker](https://code.google.com/p/chromium/issues/list) to report bugs for Chrome.
 
