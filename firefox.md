@@ -16,3 +16,7 @@ To open a [new bug](https://bugzilla.mozilla.org/enter_bug.cgi) you need to crea
 ## Guidelines
 
 Before submitting your first bugs please read the [Bug Writing Guidelines](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines).
+
+## Status page
+
+The [status page](https://platform-status.mozilla.org/) gives an overview of the implementation status of web platform features in Firefox.
