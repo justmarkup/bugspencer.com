@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Internet Explorer
-slug: internet-explorer
-permalink: /internet-explorer/
+title: Edge
+slug: edge
+permalink: /edge/
 ---
 
-<img src="{{ site.url }}/assets/images/internet-explorer/internet-explorer_128x128.png" alt="Logo {{ page.title }}">
+<img src="{{ site.url }}/assets/images/edge/edge_128x128.png" alt="Logo {{ page.title }}">
 
 ## Bugtracker for webplatform bugs
 
@@ -19,6 +19,6 @@ Before submitting your first bugs please read the [Bug Reporting Guidelines](htt
 
 ## Status page
 
-The [status page](https://status.modern.ie/) gives an overview of the implementation status of web platform features in Internet Explorer.
+The [status page](https://status.modern.ie/) gives an overview of the implementation status of web platform features in Edge.
 
 
