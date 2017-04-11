@@ -21,6 +21,15 @@ nav: true
   {% endfor %}
   </div>
 
+  <h2>Browser Bug Searcher</h2>
+
+  <form action="https://browser-issue-tracker-search.appspot.com/">
+  	<label for="q" class="visually-hidden"></label>
+  	<input type="text" name="q" id="q" placeholder="e.g. CSS Grid">
+
+  	<button type="submit">Search</button>
+  </form>
+
   <h2>Articles</h2>
 
   {% assign article = site.resourcearticle | sort: 'title'  %}

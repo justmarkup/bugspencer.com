@@ -32,3 +32,9 @@ a {
     text-decoration: underline;
   }
 }
+
+// search
+input {
+	padding: 5px;
+	max-width: calc(100vw - 140px);
+}
