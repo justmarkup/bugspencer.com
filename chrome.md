@@ -9,9 +9,9 @@ permalink: /chrome/
 
 ## Bugtracker for webplatform bugs
 
-There is a [Bugtracker](https://code.google.com/p/chromium/issues/list) to report bugs for Chrome.
+There is a [Bugtracker](https://crbug.com) to report bugs for Chrome.
 
-To open a [new bug](http://chromiumbugs.appspot.com/?continue=https%3A//code.google.com/p/chromium/issues/entry.do) you need to sign in with a Google account.
+To open a [new bug](https://crbug.com/wizard) you need to sign in with a Google account.
 
 ## Guidelines
 
